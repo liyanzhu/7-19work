@@ -15,15 +15,15 @@
   position: absolute;
   top: 200px;
   left: 105px;
-  width: 200px;
+  width: 165px;
   height: 500px;
   /*background-color: #fff;*/
   z-index: 999;
 }
 .fenlei li {
   padding-left: 35px;
-  width: 200px;
-  height: 31px;
+  width: 165px;
+  height: 31.3px;
   line-height: 31px;
   font-size: 14px;
   color: white;
