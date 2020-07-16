@@ -9,8 +9,6 @@ document.addEventListener('scroll', function () {
 
   if (window.pageYOffset >= tmallshopTop) {
     topmore.style.display = 'block';
-    topmore.style.width = 0;
-    topmore.style.height= 0;
 
   }
   else {
