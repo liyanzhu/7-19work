@@ -10,7 +10,6 @@ function animate(obj, attrObj, duration, fn, callback) {
   var change = {};
   var time = 0;
   var fn = fn || Tween.Linear;
-  console.log(fn);
 
   //获取每个属性的初始化值
   for (var i in attrObj) {

@@ -1,14 +1,14 @@
 .topmore {
   position: fixed;
-  top: 300px;
+  top: 260px;
   left: 30px;
-
-
   width: 35px;
   height: 350px;
-  background-color: #e74f2c;
-
-  display: none;
+  background-color: #3c3c3c;
+  transition: transform .5s;
+  transform-origin:  0 350px;
+  /*display: none;*/
+  transform: scale(0);
 }
 .topmore a {
   display: block;
@@ -19,4 +19,31 @@
   text-align: center;
   border-bottom: 2px solid #eaeaea;
   color: white;
+}
+.topmore a:nth-child(2):hover {
+  background-color: #ef7f7c;
+}
+.topmore a:nth-child(3):hover {
+  background-color: #efb82a;
+}
+.topmore a:nth-child(4):hover {
+  background-color: #82ef69;
+}
+.topmore a:nth-child(5):hover {
+  background-color: #244eeb;
+}
+.topmore a:nth-child(6):hover {
+  background-color: #a3a3a3;
+}
+.topmore a:nth-child(7):hover {
+  background-color: #efb82a;
+}
+.topmore a:nth-child(8):hover {
+  background-color: #82ef69;
+}
+.topmore a:nth-child(9):hover {
+  background-color: #244eeb;
+}
+.topmore a:nth-child(10):hover {
+  background-color: #a3a3a3;
 }

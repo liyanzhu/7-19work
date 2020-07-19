@@ -5,6 +5,7 @@
   <title>天猫tmall.com--理想生活上天猫</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/searchTop.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/main.css">
@@ -13,10 +14,16 @@
 
 </head>
 <body>
+  <div class="searchTop">
+    <div class="left">TMALL 天猫</div>
+    <input type="text" placeholder="搜索 天猫 商品/品牌/商店">
+    <span>搜索</span>
+  </div>
+
   <div class="header">
     <div class="he clear-fix">
       <ul class="left">
-        <li>喵，欢迎来天猫</li>
+        <li>仅做练习和模拟，如有侵权，立即删除</li>
         <li>请登录</li>
         <li>免费注册</li>
       </ul>
@@ -195,93 +202,11 @@
       <div class="shop-content">
         <div class="shop-content-item1">
           <div class="content-box">
-            <div class="content-title today">今日疯抢</div>
-            <div class="content-title">量贩装</div>
+            <a class="content-title today">今日疯抢</a>
+            <a class="content-title">量贩装</a>
             <div>
               <img src="imgs/today.png" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="shop-content-item2">
-          <div>
-            <img src="imgs/shop_zhong.jpg" alt="">
-          </div>
-          <div>
-            <span>【王源推荐】中华牙膏 优加健齿白 深海晶盐200g*3双重美白健齿</span>
-          </div>
-          <div>
-            <span>¥20.5</span>
-          </div>
-        </div>
-        <div class="shop-content-item2">
-          <div>
-            <img src="imgs/shop_ying.jpg" alt="">
-          </div>
-          <div>
-            <span>东鹏特饮由柑柠檬茶250ml*6盒装杨紫同款由柑维C果味柠檬茶饮料</span>
-          </div>
-          <div>
-            <span>¥9.9</span>
-          </div>
-        </div>
-        <div class="shop-content-item2">
-          <div>
-            <img src="imgs/shop_xi.jpg" alt="">
-          </div>
-          <div>
-            <span>喜之郎Cici果汁夏季果冻爽(苹果味) 218g/杯</span>
-          </div>
-          <div>
-            <span>¥2.7</span>
-          </div>
-        </div>
-        <div class="shop-content-item2">
-          <div>
-            <img src="imgs/shop_yi.jpg" alt="">
-          </div>
-          <div>
-            <span>益达 木糖醇无糖口香糖(清爽草莓味) 56g/瓶口气清新零食</span>
-          </div>
-          <div>
-            <span>¥10.9</span>
-          </div>
-        </div>
-        <div class="shop-content-item2">
-          <div>
-            <img src="imgs/shop_yu.jpg" alt="">
-          </div>
-          <div>
-            <span>乖乖玉米脆条（巧克力味）52克/包</span>
-          </div>
-          <div>
-            <span>¥9.6</span>
-          </div>
-        </div>
-        <div class="shop-content-item2">
-          <div>
-            <img src="imgs/shop_su.jpg" alt="">
-          </div>
-          <div>
-            <span>苏泊尔炒锅精铸铁锅无涂层真不锈32cm平底炒菜锅家用燃气明火专用</span>
-          </div>
-          <div>
-            <span>¥299</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="shop wrap">
-      <div class="tmall">
-        <img style="" src="imgs/tianmao_national.png" alt="">
-      </div>
-      <img src="imgs/maotai.jpg" alt="">
-      <div class="shop-content">
-        <div class="shop-content-item1">
-          <div class="content-box">
-            <div class="content-title today">今日疯抢</div>
-            <div class="content-title">量贩装</div>
-            <div>
-              <img src="imgs/today.png" alt="">
+              <img src="imgs/img2.png" alt="">
             </div>
           </div>
         </div>
@@ -775,21 +700,29 @@
   </div>
 
   <div class="topmore">
-    <a href="">导航</a>
-    <a href="">天猫超市</a>
-    <a href="">天猫国际</a>
-    <a href="">美丽人生</a>
-    <a href="">潮店酷玩</a>
-    <a href="">居家生活</a>
-    <a href="">打造爱巢</a>
-    <a href="">户外出行</a>
-    <a href="">猜你喜欢</a>
-    <a href="">顶部</a>
+    <a style="background-color: #f00;" href="javascript:;">导航</a>
+    <a href="javascript:;">天猫超市</a>
+    <a href="javascript:;">天猫国际</a>
+    <a href="javascript:;">美丽人生</a>
+    <a href="javascript:;">潮店酷玩</a>
+    <a href="javascript:;">居家生活</a>
+    <a href="javascript:;">打造爱巢</a>
+    <a href="javascript:;">户外出行</a>
+    <a href="javascript:;">猜你喜欢</a>
+    <a href="javascript:;">顶部</a>
   </div>
 
 
   <script src="js/animate.js"></script>
+  <script src="js/searchTop.js"></script>
   <script src="js/nav.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/top.js"></script>
+
+  <script>
+    document.onclick = function () {
+      console.log(document.documentElement.scrollTop);
+    }
+  </script>
 </body>
 </html>

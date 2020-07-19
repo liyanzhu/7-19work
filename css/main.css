@@ -132,12 +132,20 @@
   background-color: #fff;
 }
 .main .shop-content-item1 .content-box {
+  position: relative;
+  
   width: 462px;
   height: 280px;
   margin: 10px auto;
   box-shadow: 0 0 3px 3px #eaeaea;
 }
+.main .shop-content-item1 .content-box img {
+  position: absolute;
+  top: 57px;
+  left: 0;
+}
 .main .shop-content-item1 .content-title {
+  display: block;
   float: left;
   width: 231px;
   height: 57px;
