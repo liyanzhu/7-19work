@@ -21,29 +21,17 @@
   color: white;
 }
 .topmore a:nth-child(2):hover {
-  background-color: #ef7f7c;
+  background-color: #ef7f7c!important;
 }
 .topmore a:nth-child(3):hover {
-  background-color: #efb82a;
+  background-color: #efb82a!important;
 }
 .topmore a:nth-child(4):hover {
-  background-color: #82ef69;
+  background-color: #82ef69!important;
 }
 .topmore a:nth-child(5):hover {
-  background-color: #244eeb;
+  background-color: #244eeb!important;
 }
 .topmore a:nth-child(6):hover {
-  background-color: #a3a3a3;
-}
-.topmore a:nth-child(7):hover {
-  background-color: #efb82a;
-}
-.topmore a:nth-child(8):hover {
-  background-color: #82ef69;
-}
-.topmore a:nth-child(9):hover {
-  background-color: #244eeb;
-}
-.topmore a:nth-child(10):hover {
-  background-color: #a3a3a3;
+  background-color: #a3a3a3!important;
 }
